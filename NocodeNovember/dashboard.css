@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+img.centered {
+  display: block !important;
+  margin: auto !important;
+  color: transparent !important;
+  width: 24px;
+  height: 24px;
+}
+
+body {
+  font-family: "Poppins", Roboto;
+  font-size: 18px;
+  background: #EDEDED;
+}
+main {
+  width: 1000px;
+  margin: 10px auto;
+  padding: 10px 20px 30px;
+  background: #FFF;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 50px;
+}
+#pie-chart{
+  text-align: center;
+}
+#bar-chart{
+  text-align: center;
+}
